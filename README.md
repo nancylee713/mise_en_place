@@ -1,24 +1,11 @@
-# README
+# Mise En Place
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a basic template for rails web apps. Frequently used gems are added to Gemfile, rails/spec helper files are created/updated, and similar routine work is done for Ruby/Rails developers.
 
-Things you may want to cover:
+To get started, clone this repo in your local project directory and run the following lines in your terminal:
 
-* Ruby version
+```
+$ bundle install   # OR bundle update
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+$ bundle exec figaro install   # to create .application.yml to store private keys
+```
